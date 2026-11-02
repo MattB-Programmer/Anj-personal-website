@@ -1,0 +1,25 @@
+HEX COLORS
+================
+background header
+#f6f4ed
+
+darker background version
+#EBE9E2
+
+logo/title and main font color
+#283f34
+
+header links
+#333333
+
+buttons
+#3e594d
+
+buttons:hover
+#344D42
+
+offwhite text
+#F5F2E9
+
+underline
+#F28C38
