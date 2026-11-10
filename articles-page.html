@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Anjana Rajhandary</title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <link rel="icon" type="image/png" href="images/MainLogo.png">
+    </head>
+    <body>
+        <header class="header">
+            <a href="home-page.html" class="logo">
+                <img src="images/MainLogo.png" alt="Website logo" class="logo-image">
+                <h1>Anjana Rajhandary</h1>
+            </a>
+
+            <nav class="header-links">
+                <a href="about-page.html">ABOUT</a>
+                <a href="">WORK WITH ME</a>
+                <a href="">YOGA CLASSES</a>
+                <a href="articles-page.html">ARTICLES</a>
+                <a href="">RESOURCES</a>
+                <a href="">CONTACT</a>
+                <a href="" id="start-here-button">START HERE</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="articles-page">
+                <div class="introductory">
+                    <h1>My Articles</h1>
+                    <p>A list of my articles that did not make it on my accounts.</p>
+                </div>
+                <div class="articles-section">
+                    <div class="article-area">
+                        <img class="article-image">
+                        <span>article 1</span>
+                        <span>description</span>
+                        <span>publishers</span>
+                        <span>date</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="copyright">
+                    <p>&copy; <span id="year"></span> Anjana Rajhandary | All rights reserved</p>
+
+                    <script>
+                        document.getElementById("year").textContent = new Date().getFullYear();
+                    </script>
+                </div>
+                <div class="socials">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="images/socialmedia_logos/facebook.png" class="socialmedia-logo">
+                    </a>
+                    <a href="https://www.instagram.com/anjyrajy/" target="_blank">
+                        <img src="images/socialmedia_logos/instagram.png" class="socialmedia-logo">
+                    </a>
+                    <a href="https://www.twitter.com/" target="_blank">
+                        <img src="images/socialmedia_logos/twitter.png" class="socialmedia-logo">
+                    </a>
+                    <a href="https://www.linkedin.com/" target="_blank">
+                        <img src="images/socialmedia_logos/linkedin.png" class="socialmedia-logo">
+                    </a>
+                </div>
+        </footer>
+    </body>
+</html>
